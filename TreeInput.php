@@ -12,7 +12,7 @@ use yii\web\View;
 
 /**
  * Class TreeInput
- * @package igor162\yii2jstree
+ * @package igor162\JsTree
  *
  * @property array $plugins
  * @property boolean $types
@@ -28,7 +28,7 @@ use yii\web\View;
  * @property array $selectedNodes
  *
  */
-class TreeInput extends \yii\widgets\InputWidget
+class JsTreeInput extends \yii\widgets\InputWidget
 {
 
     /**

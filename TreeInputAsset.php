@@ -8,9 +8,9 @@ use yii\web\AssetBundle;
  * JsTree asset bundle.
  *
  * Class TreeInputAsset
- * @package igor162\yii2jstree
+ * @package igor162\JsTree
  */
-class TreeInputAsset extends AssetBundle
+class JsTreeInputAsset extends AssetBundle
 {
 
     public $sourcePath = '@bower/jstree/dist';

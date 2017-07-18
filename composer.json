@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "igor162\\yii2jstree\\": ""
+            "igor162\\JsTree\\": ""
         }
     }
 }
