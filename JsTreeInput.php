@@ -146,7 +146,7 @@ class JsTreeInput extends \yii\widgets\InputWidget
             $onSelect = ".on('select_node.jstree', {$this->onSelect})";
 
         $view = $this->getView();
-        TreeInputAsset::register($view);
+        JsTreeInputAsset::register($view);
 
         $this->getView()->registerJs("
             jQuery('#$jsTreeId')
